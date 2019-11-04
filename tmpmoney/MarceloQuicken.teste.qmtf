@@ -1,0 +1,2329 @@
+!Option:AutoSwitch
+!Account
+NApartamento.Imprensa F203
+B0.00
+D
+TOth A
+^
+NPat.Salario
+B-23304,72
+D
+TCash
+^
+NPat.BB.28835.220256.Poup
+B30028,95
+D
+TBank
+^
+NMar.Caixa.0863.204081
+B20129,76
+D
+TBank
+^
+NMar.TR Eletronico
+B1,47
+D
+TCash
+^
+NEmpr Conc.Selma 201208
+B200,00
+D
+TOth A
+^
+NEmpr Conc.Neide 201103
+B0.00
+D
+TOth A
+^
+NMar.Carteira.Viagem.EUA.2012
+B0.00
+D
+TCash
+^
+NMar.BRB.Poup
+B0.00
+D
+TBank
+^
+NMar.Carteira
+B-2577,90
+D
+TCash
+^
+NMar.Cinzeiro
+B0.00
+D
+TCash
+^
+NEmpr Feito d Luzia.20110922
+B-176721,63
+D
+TOth L
+^
+NEmpr Feito d Luzia.201501
+B-29000,00
+D
+TOth L
+^
+NCarro - Corsa
+B0.00
+D
+TOth A
+^
+NEmpr Feito Maria Jovem.2012060
+B,86
+D
+TOth L
+^
+NMar.Caixa.0863.204081.Poup
+B22038,80
+D
+TBank
+^
+NEmpr Feito Caixa.201206
+B0.00
+D
+TOth L
+^
+NPat.BB.MasterCard
+B0.00
+D
+TCCard
+^
+NPat.Carteira
+B5146,80
+D
+TCash
+^
+NCartao d Luzia Viagem EUA 2013
+B0.00
+D
+TOth L
+^
+NCasa 708.Sul
+B1108000,00
+D
+TOth A
+^
+NPat.BB.28835.220256
+B273,68
+D
+TBank
+^
+NPat.Caixa.2399.Poup
+B33,01
+D
+TBank
+^
+NCarro - Mitsubishi Outlander
+B100000,00
+D
+TOth A
+^
+NMar.BB.34754.61662
+B0.00
+D
+TBank
+^
+NMar.BB.MasterCard Gold
+B-667,99
+D
+TCCard
+^
+NEmpr Conc.Neide 201110
+B0.00
+D
+TOth A
+^
+NCartao d Luzia Viagem EUA 2012
+B0.00
+D
+TOth L
+^
+NMar.Carteira.Viagem.EUA.2013
+B0.00
+D
+TCash
+^
+NMar.Mercado Livre MP
+B190,00
+D
+TCash
+^
+NMar.BB.34754.61662.Poup
+B0.00
+D
+TBank
+^
+NPat.Caixa.3494.502712
+B168,94
+D
+TBank
+^
+NMar.Salario
+B-44516,31
+D
+TCash
+^
+NMar.Caixa.2458.7021575.Poup
+B0.00
+D
+TBank
+^
+!Clear:AutoSwitch
+!TYPE:Cat
+NBusiness Services:Legal Services (Business)
+DProfessional and Legal Business Services)
+E
+T
+R298
+^
+NHome:Home Improvement
+DHome Improvement
+E
+^
+NTaxes:Soc Sec
+DSocial Security Tax
+E
+T
+R462
+^
+NCash & ATM
+DCash & ATM
+E
+^
+NHome:Home Insurance
+DHome Insurance
+E
+^
+NHealth & Fitness:Medicine/Drugs
+DMedicine & Drug Pharmacy Purchases
+E
+T
+R273
+^
+NFees & Charges:Bank Fee
+DBank Fee
+E
+^
+NFees & Charges:Late Fee
+DLate Fee
+E
+^
+NBusiness Services:Printing (Business)
+DPrinting and Reproduction Business Expenses
+E
+T
+R302
+^
+NAuto & Transport:Registration
+DRegistration for your automobile. Portions may be tax-
+E
+T
+R535
+^
+NTaxes:Medicare
+DMedicare Tax
+E
+T
+R480
+^
+NKids
+DKids
+E
+^
+NGifts & Donations:Charity
+DCharity
+E
+T
+R280
+^
+NBusiness Expenses:Office Expenses (Business)
+DOffice Expenses (Business)
+E
+T
+R313
+^
+NShopping:Hobbies
+DHobbies
+E
+^
+NBusiness Income
+DBusiness Income
+I
+^
+NPersonal Income:Dividend Income
+DDividend Income
+I
+T
+R286
+^
+NBusiness Expenses:Telephone (Business)
+DTelephone (Business)
+E
+T
+R318
+^
+NHome:Mortgage Interest
+DThe interest portion of your mortgage payment.
+E
+T
+R283
+^
+NEducation:Student Loan
+DStudent Loan Interest
+E
+T
+R636
+^
+NTaxes:Local Tax
+DLocal or Other Taxes
+E
+^
+NTravel
+DTravel
+E
+^
+NPets:Pet Grooming
+DPet Grooming
+E
+^
+NBusiness Services:Office Supplies (Business)
+DBusiness/Office Supplies
+E
+T
+R301
+^
+NBusiness Services:Advertising (Business)
+DBusiness Advertising Expenses
+E
+T
+R304
+^
+NHealth & Fitness:Eyecare
+DEyecare
+E
+T
+R484
+^
+NBusiness Expenses:Local Tax (Business)
+DLocal Tax (Business)
+E
+^
+NTravel:Vacation
+DVacation
+E
+^
+NPersonal Income:Reimbursement
+DReimbursement
+I
+^
+NPersonal Income
+DOther Income
+I
+T
+R257
+^
+NAuto & Transport:Auto Payment
+DAuto Payment
+E
+^
+NAuto & Transport:Public Transportation
+DPublic Transportation
+E
+^
+NPersonal Income:Returned Purchase
+DReturned Purchase
+I
+^
+NShopping:Electronics & Software
+DElectronics & Software
+E
+^
+NHome:Home Services
+DHome Services
+E
+^
+NEntertainment:Arts
+DArts
+E
+^
+NFinancial
+DFinancial Expenses
+E
+^
+NTaxes:Sales Tax
+DSales Tax
+E
+^
+NEntertainment:Movies & DVDs
+DMovies & DVDs
+E
+^
+NLoans:Loan Insurance
+DLoan Insurance
+E
+^
+NPersonal Income:Other Pension
+DOther Pension
+I
+T
+R476
+^
+NBusiness Expenses:Misc. Expense (Business)
+DMisc. Expense (Business)
+E
+T
+R302
+^
+NTravel:Rental Car & Taxi
+DRental Car & Taxi
+E
+^
+NHome:Lawn & Garden
+DLawn & Garden
+E
+^
+NPersonal Income:Taxable IRA Withdrawal
+DTaxable IRA Withdrawal
+I
+T
+R478
+^
+NTaxes:State Tax
+DState Tax
+E
+T
+R464
+^
+NPersonal Income:Tax Refund
+DTax Refund
+I
+T
+R260
+^
+NEducation:Books & Supplies
+DBooks & Supplies
+E
+^
+NHealth & Fitness:Provincial Health
+DProvincial Health Care
+E
+^
+NBusiness Income:Consulting Income (Business)
+DConsulting Income (Business)
+I
+T
+R293
+^
+NLoans:Loan Payment
+DLoan Payment
+E
+^
+NShopping:Sporting Goods
+DSporting Goods
+E
+^
+NTravel:Hotel
+DHotel
+E
+^
+NHealth & Fitness:Gym
+DGym
+E
+^
+NEntertainment
+DEntertainment
+E
+^
+NPersonal Income:Paycheck
+DSalary Income
+I
+T
+R460
+^
+NFees & Charges:Finance Charge
+DFinance Charge
+E
+T
+R0
+^
+NBusiness Expenses:Travel (Business)
+DTravel (Business)
+E
+T
+R317
+^
+NHome:Mortgage & Rent
+DMortgage & Rent
+E
+^
+NFood & Dining
+DFood & Dining
+E
+^
+NKids:Allowance
+DAllowance
+E
+^
+NBills & Utilities:Utilities
+DUtilities such as Gas, Electricity, Water, Sewer, and 
+E
+^
+NEntertainment:Music
+DMusic
+E
+^
+NPersonal Income:Interest Earned
+DInterest Income
+I
+T
+R287
+^
+NKids:Babysitter & Daycare
+DBabysitter & Daycare
+E
+T
+R401
+^
+NBills & Utilities
+DBills & Utilities
+E
+^
+NEducation
+DEducation
+E
+^
+NPersonal Care:Hair
+DHair
+E
+^
+NHealth & Fitness:Dentist
+DDentist
+E
+T
+R484
+^
+NPersonal Income:Other Income
+DOther Income
+I
+T
+R257
+^
+NFinancial:Financial Advisor
+DFinancial Advisor
+E
+T
+R282
+^
+NEntertainment:Amusement
+DAmusement
+E
+^
+NBusiness Expenses:Discounts (Business)
+DDiscounts (Business)
+E
+T
+R296
+^
+NTaxes:Property Tax
+DProperty Tax
+E
+T
+R276
+^
+NShopping:Books
+DBooks
+E
+^
+NEntertainment:Newspapers & Magazines
+DNewspapers & Magazines
+E
+^
+NBusiness Services
+DBusiness Services
+E
+T
+R0
+^
+NGifts & Donations
+DGifts & Donations
+E
+^
+NUtilities (Business)
+DUtilities (Business)
+E
+T
+R318
+^
+NLoans:Loan Fees and Charges
+DLoan Fees and Charges
+E
+^
+NHealth & Fitness
+DHealth & Fitness
+E
+^
+NKids:Toys
+DToys
+E
+^
+NAuto & Transport:Parking
+DParking
+E
+^
+NFood & Dining:Restaurants
+DRestaurants
+E
+^
+NKids:Child Support
+DChild Support
+E
+^
+NPersonal Care:Laundry
+DLaundry
+E
+^
+NHome:Furnishings
+DFurnishings
+E
+^
+NTaxes:Federal Tax
+DFederal Tax Withholding
+E
+T
+R461
+^
+NFees & Charges
+DFees & Charges
+E
+^
+NBusiness Expenses:Taxes (Business)
+DTaxes (Business)
+E
+T
+R316
+^
+NGifts & Donations:Gift
+DGifts Given
+E
+^
+NBusiness Services:Shipping (Business)
+DPostage and Delivery Business Expenses
+E
+T
+R302
+^
+NBills & Utilities:Internet
+DInternet
+E
+^
+NHealth & Fitness:Doctor
+DDoctor
+E
+T
+R484
+^
+NBusiness Expenses:Insurance (Business)
+DInsurance (Business)
+E
+T
+R310
+^
+NTaxes:SDI
+DState Disability Insurance
+E
+T
+R463
+^
+NPersonal Income:Gift Received
+DGift Received
+I
+^
+NAuto & Transport:Auto Insurance
+DAuto Insurance
+E
+^
+NBusiness Expenses:Meals & Entertainment (Business)
+DMeals & Entertainment (Business)
+E
+T
+R294
+^
+NKids:Kids Activities
+DKids Activities
+E
+^
+NUtilities (Business):Internet (Business)
+DInternet (Business)
+E
+T
+R318
+^
+NFees & Charges:Trade Commissions
+DTrade Commissions
+E
+^
+NBusiness Expenses:Vehicle (Business)
+DMotor Vehicle Business Expenses
+E
+T
+R306
+^
+NLoans:Loan Principal
+DLoan Principal
+E
+^
+NFood & Dining:Coffee Shops
+DCoffee Shops
+E
+^
+NKids:Baby Supplies
+DBaby Supplies
+E
+^
+NFees & Charges:Service Fee
+DService Fee
+E
+^
+NHome
+DHome Expenses
+E
+^
+NAuto & Transport:Gas & Fuel
+DGas & Fuel
+E
+^
+NAuto & Transport
+DAuto & Transport
+E
+^
+NFood & Dining:Groceries
+DGroceries
+E
+^
+NBusiness Expenses:Purchase, Cost of Goods
+DPurchases related to product(s) delivered
+E
+T
+R493
+^
+NHealth & Fitness:Health Insurance
+DHealth Insurance
+E
+^
+NBusiness Expenses:Maintenance (Business)
+DBusines related maintenance & repair
+E
+T
+R315
+^
+NPets:Pet Food & Supplies
+DPet Food & Supplies
+E
+^
+NFinancial:Life Insurance
+DLife Insurance
+E
+^
+NPets:Veterinary
+DVeterinary Expenses
+E
+^
+NEducation:Tuition
+DTuition
+E
+T
+R0
+^
+NPersonal Income:Investment Income
+DInvestment Income
+I
+T
+R0
+^
+NHome:Home Supplies
+DHome Supplies
+E
+^
+NLoans:Loan Interest
+DFinance charges, like loan or credit card interest.
+E
+^
+NPets
+DPet Expenses
+E
+^
+NAuto & Transport:Service & Parts
+DService & Parts
+E
+^
+NBusiness Expenses:Licenses & Permits (Business)
+DLicenses & Permits (Business)
+E
+T
+R316
+^
+NBusiness Expenses
+DBusiness Expenses
+E
+T
+R0
+^
+NBusiness Income:Other Income (Business)
+DOther Income (Business)
+I
+T
+R303
+^
+NBusiness Expenses:Salary, Wages Paid
+DSalaries & Employee Benefits
+E
+T
+R297
+^
+NBusiness Expenses:Not Sure, Biz
+DNot Sure, Biz
+E
+^
+NPersonal Income:Bonus
+DBonus Income
+I
+T
+R460
+^
+NTaxes
+DTaxes
+E
+^
+NFees & Charges:ATM Fee
+DATM Fee
+E
+^
+NBusiness Expenses:Returns (Business)
+DReturns (Business)
+E
+T
+R296
+^
+NHealth & Fitness:Sports
+DSports
+E
+^
+NShopping:Clothing
+DClothing
+E
+^
+NFood & Dining:Fast Food
+DFast Food
+E
+^
+NHome:HOA Dues
+DHomeowner's Association Dues
+E
+^
+NTravel:Air Travel
+DAir Travel
+E
+^
+NBills & Utilities:Television
+DTelevision
+E
+^
+NHealth & Fitness:Private Health
+DPrivate Health Care
+E
+^
+NLoans
+DLoans
+E
+^
+NShopping
+DShopping
+E
+^
+NBusiness Expenses:Utilities (Business)
+DUtilities (Business)
+E
+T
+R318
+^
+NBills & Utilities:Mobile Phone
+DMobile Phone
+E
+^
+NFood & Dining:Alcohol & Bars
+DAlcohol & Bars
+E
+^
+NBills & Utilities:Home Phone
+DHome Phone
+E
+^
+NPersonal Care
+DPersonal Care
+E
+^
+NPersonal Care:Spa & Massage
+DSpa & Massage
+E
+^
+NBusiness Expenses:Bad Debt
+DBad Debt deduction from a true debtor-creditor relatio
+E
+T
+R305
+^
+NPersonal Income:Rental Income
+DRental Income
+I
+^
+NBusiness Income:Sales (Business)
+DBusiness Sales Income
+I
+T
+R293
+^
+NInvestments:Realized Gain/Loss
+DRealized Gain/Loss
+I
+^
+NInvestments
+DInvestments
+E
+^
+NInvestments:Buy
+DBuy
+E
+^
+NInvestments:Interest Income Tax-Free
+DInterest Income Tax-Free
+I
+T
+R289
+^
+NTransfer
+DTransfer
+E
+^
+NInvestments:ESPP Self Income (Spouse)
+DESPP Self Income (Spouse)
+I
+T
+R506
+^
+NInvestments:Stock Split
+DStock Split
+E
+^
+NInvestments:Reinvest Long-term Capital Gain
+DReinvest Long-term Capital Gain
+I
+T
+R323
+^
+NInvestments:Return of Capital
+DReturn of Capital
+E
+^
+NInvestments:Remove Shares
+DRemove Shares
+E
+^
+NInvestments:Employee Stock Option Income
+DEmployee Stock Option Income
+I
+T
+R460
+^
+NInvestments:Stock Dividend
+DStock Dividend
+E
+^
+NInvestments:Add Shares
+DAdd Shares
+E
+^
+NInvestments:Accrued Interest Tax-Free
+DAccrued Interest Tax-Free
+E
+T
+R289
+^
+NInvestments:Reinvest Short-term Capital Gain
+DReinvest Short-term Capital Gain
+I
+T
+R286
+^
+NInvestments:Unrealized Gain/Loss
+DUnrealized Gain/Loss
+I
+^
+NInvestments:Long-term Capital Gain
+DLong-term Capital Gain
+I
+T
+R323
+^
+NInvestments:Short-term Capital Gain
+DShort-term Capital Gain
+I
+T
+R286
+^
+NInvestments:Accrued Interest
+DAccrued Interest
+E
+T
+R287
+^
+NInvestments:Dividend Income
+DDividend Income
+I
+T
+R286
+^
+NUncategorized
+DExpenses I am not sure about
+E
+^
+NInvestments:Sell
+DSell
+E
+T
+R810
+^
+NInvestments:ESPP Self Income
+DESPP Self Income
+I
+T
+R460
+^
+NInvestments:Sell Bonds
+DSell Bonds
+E
+T
+R810
+^
+NInvestments:Employee Stock Option Income (Spouse)
+DEmployee Stock Option Income (Spouse)
+I
+T
+R506
+^
+NInvestments:Buy Bonds
+DBuy Bonds
+E
+^
+NInvestments:Dividend Income Tax-Free
+DDividend Income Tax-Free
+I
+T
+R487
+^
+NInvestments:Margin Interest Expense
+DMargin Interest Expense
+E
+^
+NInvestments:Buy to Cover
+DBuy to Cover
+E
+T
+R810
+^
+NInvestments:Short Sell
+DShort Sell
+E
+^
+NInvestments:Interest Income
+DInterest Income
+I
+T
+R287
+^
+NAdjustment
+DAdjustment
+E
+^
+NTransfer:Credit Card Payment
+DCredit Card Payment
+E
+^
+NInvestments:Interest Expense
+DInterest Expense
+E
+T
+R426
+^
+NVestuario:Roupas
+D
+E
+^
+NLar
+D
+E
+^
+NDiversao:Teatro
+D
+E
+^
+NLar:CamaMesaBanho
+D
+E
+^
+NUtilidades
+D
+E
+^
+NGastos Gerais:Perdi
+D
+E
+^
+NSalario (Proventos):GTEMPCT
+D
+I
+^
+NBanco
+D
+E
+^
+NUtilities:Phone
+D
+E
+^
+NMeals & Entertainment (Business)
+DMeals & Entertainment expenses for your business.
+E
+T
+R294
+^
+NImpostos:IRRF
+D
+E
+^
+NImpostos:IPVA
+D
+E
+^
+NSaude:Lentes De Contato
+D
+E
+^
+NSalario (Deducoes):Aux Transporte
+D
+E
+^
+NSaude:Planos De Saude
+D
+E
+^
+NDevolucoes Produtos
+D
+E
+^
+NCriancas:Filmes
+D
+E
+^
+NDiversao:Outras
+D
+E
+^
+NGastos Gerais:Costura
+D
+E
+^
+NRestituicao IR
+D
+I
+^
+NMercado:Superfluos:Vinhos
+D
+E
+^
+NTax
+DTaxes
+E
+^
+NSalario (Deducoes):Faltas Paralisacao Greve
+D
+E
+^
+NVendas:Stuffs
+D
+I
+^
+NMercado
+D
+E
+^
+NVendas:Bijuterias
+D
+I
+^
+NDiversao:Aluguel Filmes
+D
+E
+^
+NCriancas:Remedios e Farmacia
+D
+E
+^
+NLar:Plantas
+D
+E
+^
+NUtilities
+D
+E
+^
+NGastos Gerais:Correios
+D
+E
+^
+NTaxes (Business)
+DTaxes & Licenses for your business.
+E
+T
+R316
+^
+NReembolso Mp
+D
+I
+^
+NMercado:Basicos:Leite
+D
+E
+^
+NGastos Gerais
+D
+E
+^
+NAutomovel:Combustivel
+D
+E
+^
+NTaxa Renovacao Passaportes
+D
+E
+^
+NUtilidades:TICs:Servicos
+D
+E
+^
+NCriancas:Vitaminas
+D
+E
+^
+NCaridade:Igreja:Oferta
+D
+E
+^
+NMercado:Basicos:Limpeza
+D
+E
+^
+NVendas
+D
+I
+^
+NMercado:Superfluos:Refri
+D
+E
+^
+NUtilidades:TICs:Pacote Fone Internet Celular
+D
+E
+^
+NCriancas:Baba:1 Terco Ferias
+D
+E
+^
+NSales (Business)
+DGross Sales for your business
+I
+T
+R293
+^
+NImpostos:IPTU
+D
+E
+^
+NCartao Credito (Income):Ajuste Cambial (Income)
+D
+I
+^
+NEmprestimos Pagamentos (Income)
+D
+I
+^
+NSalario (Proventos):Ferias Antecipadas
+D
+I
+^
+NSaude:Planos De Saude:Participacao
+D
+E
+^
+NGiro Externo (expense)
+D
+E
+^
+NBeleza:Produtos
+D
+E
+^
+NSalario (Proventos):Auxilio Alimentacao
+D
+I
+^
+NSaude:Fitness:Equipamentos Acessorios
+D
+E
+^
+NCompra Dolares
+D
+E
+^
+NSalario (Proventos):Assistencia Pre Escolar
+D
+I
+^
+NGastos Gerais:Concurso
+D
+E
+^
+NTech:Computadores
+D
+E
+^
+NLar:Pilhas Baterias
+D
+E
+^
+NSalario (Proventos):Falta Paralisacao Greve (prov)
+D
+I
+^
+NCriancas:Educacao:Creche
+D
+E
+^
+NGastos Gerais:Papelaria
+D
+E
+^
+NImpostos:Tarifas Sobre Compras No Exterior
+D
+E
+^
+NVestuario:Calcados
+D
+E
+^
+NTaxes USA
+D
+E
+^
+NCriancas:Livrinhos
+D
+E
+^
+NUtilities (Business):Telephone (Business)
+DTelephone expenses for your business.
+E
+T
+R318
+^
+NCriancas:Baba:INSS:Multas
+D
+E
+^
+NSaude:Planos De Saude:Per Capita Patrocinador
+D
+E
+^
+NSalario Liquido
+D
+I
+^
+NDiversao:Transporte
+D
+E
+^
+NCompra Casa 708 Sul
+D
+E
+^
+NSaude:Consulta
+D
+E
+^
+NImpostos:ITBI
+D
+E
+^
+NMusica:Ensaio
+D
+E
+^
+NDevolucao Emprestimo
+D
+I
+^
+NTech:Audio Video
+D
+E
+^
+NBanco:Cartao Credito (Expense):Anuidade Cartao
+D
+E
+^
+NProf and Legal Fees
+DProfessional and Legal Fees for your business.
+E
+T
+R298
+^
+NSaude:Vitaminas
+D
+E
+^
+NDiversao
+D
+E
+^
+NSalary
+D
+E
+^
+NDiversao:Comer Fora
+D
+E
+^
+NSalario (Deducoes)
+D
+E
+^
+NUtilidades:TICs:Internet
+D
+E
+^
+NSalario (Proventos):RT - Retribuicao Por Titulacao
+D
+I
+^
+NCriancas:Baba:Transporte
+D
+E
+^
+NSalario (Deducoes):Restit Ferias
+D
+E
+^
+NSaude:Fitness:Academia
+D
+E
+^
+NSalario (Proventos):Vencimento Basico
+D
+I
+^
+NUtilidades:TICs:Celulares
+D
+E
+^
+NImpostos
+D
+E
+^
+NLar:Lavanderia
+D
+E
+^
+NTech:Audio Video:Cds
+D
+E
+^
+NRent
+D
+E
+^
+NTech:Audio Video:filmes
+D
+E
+^
+NLar:Reforma
+D
+E
+^
+NTech:Computadores:Acessorios
+D
+E
+^
+NTech:Audio Video:Video Games:Jogos
+D
+E
+^
+NUtilidades:Eletricidade
+D
+E
+^
+NCriancas:Baba:INSS
+D
+E
+^
+NAjustes
+D
+E
+^
+NDiversao:Teatro Shows
+D
+E
+^
+NTech:Acessorios e Suprimentos
+D
+E
+^
+NSaude:Oculos
+D
+E
+^
+NTech:Audio Video:Jogos
+D
+E
+^
+NBeleza
+D
+E
+^
+NCriancas:Vestuario
+D
+E
+^
+NEducacao:Cursos
+D
+E
+^
+NImpostos:IRRF - Ferias
+D
+E
+^
+NVendas:Apt
+D
+I
+^
+NDiversao:Festinha
+D
+E
+^
+NUtilidades:TICs:Fixo
+D
+E
+^
+NGastos Gerais:Cartorio:Certidoes
+D
+E
+^
+NAutomovel:Acessorios
+D
+E
+^
+NCriancas:Esportes
+D
+E
+^
+NAutomovel:Estacionamento
+D
+E
+^
+NSalario (Proventos):GDACT
+D
+I
+^
+NAutomovel:Combustivel:Gasolina
+D
+E
+^
+NUtilidades:TICs
+D
+E
+^
+NLar:Servicos Gerais:Diaria
+D
+E
+^
+NPresente (Income)
+D
+I
+^
+NTech
+D
+E
+^
+NCredito FGTS
+D
+I
+^
+NCartao Credito (Income)
+D
+I
+^
+NExtorno
+D
+I
+^
+NCriancas:Roupa Cama
+D
+E
+^
+NVendas:Taxa De Envio
+D
+I
+^
+NLar:Coisas
+D
+E
+^
+NLar:Mobilia
+D
+E
+^
+NUtilidades:TICs:Plano Misto
+D
+E
+^
+NGastos Gerais:Cartorio
+D
+E
+^
+NAutomovel:Combustivel:Alcool
+D
+E
+^
+NGastos Gerais:Biblioteca
+D
+E
+^
+NCaridade:Esmola
+D
+E
+^
+NDiversao:Fliper
+D
+E
+^
+NBanco:Taxas
+D
+E
+^
+NVendas:Stuffs:Tech
+D
+I
+^
+NTaxes (Business):Licenses (Business)
+DLicenses for your business.
+E
+T
+R316
+^
+NSaude
+D
+E
+^
+NTax:Fed
+DFederal Tax
+E
+T
+R461
+^
+NDiversao:Hospedagem
+D
+E
+^
+NUtilidades:Agua
+D
+E
+^
+NMercado:Basicos
+D
+E
+^
+NTax:Property Tax
+DProperty Tax
+E
+T
+R276
+^
+NAutomovel:Seguro
+D
+E
+^
+NFrete
+D
+E
+^
+NSalario (Deducoes):Venc Basico
+D
+E
+^
+NDevolucao Impostos
+D
+I
+^
+NTravel (Business)
+DBusiness Travel Expense
+E
+T
+R317
+^
+NVestuario:Acessorios
+D
+E
+^
+NCriancas:Educacao:Creche:Material Escolar
+D
+E
+^
+NAutomovel:Multas
+D
+E
+^
+NLar:Ferramentas e Suprimentos
+D
+E
+^
+NGastos Gerais:Renovacao Carteira
+D
+E
+^
+NTech:Audio Video:filmes:bluray
+D
+E
+^
+NAjuste GrossPay
+D
+E
+^
+NUtilities:Electric
+D
+E
+^
+NPdevolver
+D
+E
+^
+NCaridade
+D
+E
+^
+NDiversao:Cinema
+D
+E
+^
+NImpostos:Licenciamento
+D
+E
+^
+NMusica
+D
+E
+^
+NTrabalho:Transporte
+D
+E
+^
+NAutomovel:Manutencao
+D
+E
+^
+NAjuda De Custo
+D
+I
+^
+NTaxa De Venda Web
+D
+E
+^
+NLar:Coisas:Jardim
+D
+E
+^
+NBanco:Compra Dolares
+D
+E
+^
+NCredito Nota Legal
+D
+I
+^
+NBanco:Cartao Credito (Expense):Ajuste Cambial (Expense
+D
+E
+^
+NSaude:Fitness
+D
+E
+^
+NGRU - Devolucao Ajuda Custo
+D
+E
+^
+NTrabalho:Hospedagem
+D
+E
+^
+NCartao Credito (Income):Devolucao
+D
+I
+^
+NMusica:Instrumentos Acessorios
+D
+E
+^
+NCaridade:Igreja
+D
+E
+^
+NSalario (Proventos)
+D
+I
+^
+NTech:Celular
+D
+E
+^
+NSalario (Deducoes):Cota Parte Pre Escolar
+D
+E
+^
+NCriancas:Baba:Salario
+D
+E
+^
+NDevolucao Compra
+D
+I
+^
+NMercado:Higiene
+D
+E
+^
+NUtilidades:TICs:TV
+D
+E
+^
+NBanco:Cartao Credito (Expense):Protecao Perda Roubo
+D
+E
+^
+NCriancas:Educacao
+D
+E
+^
+NGiro Externo
+D
+I
+^
+NCriancas:Brinquedos
+D
+E
+^
+NCriancas:Fraldas
+D
+E
+^
+NPersonal
+D
+E
+^
+NVendas:Roupas
+D
+I
+^
+NTech:Informatica Outros
+D
+E
+^
+NVenda Dolares
+D
+I
+^
+NBanco:Compra Dolares:Taxa Venda
+D
+E
+^
+NPresentes Dados
+D
+E
+^
+NCaridade:Igreja:Carne Construcao
+D
+E
+^
+NPravender
+D
+E
+^
+NSalario (Proventos):1 Terco Ferias
+D
+I
+^
+NGastos Gerais:Servicos Gerais
+D
+E
+^
+NSalario (Deducoes):Contr Pss Ferias
+D
+E
+^
+NPrinting and Reproduction (Business)
+DPrinting and Reproduction expense for your business
+E
+T
+R302
+^
+NTech:Audio Video:Equipamentos
+D
+E
+^
+NJuros Correcao Monetaria
+D
+I
+^
+NVendas:Apartamento Imprensa
+D
+I
+^
+NCaridade:Igreja:Dizimo
+D
+E
+^
+NAutomovel:Pagamento Auto
+D
+E
+^
+NPrestacao Par3
+D
+E
+^
+NMercado:Superfluos
+D
+E
+^
+NSalario (Proventos):Pagamento Exerc Ant
+D
+I
+^
+NBanco:Cartao Credito (Expense)
+D
+E
+^
+NCriancas:Alimentacao
+D
+E
+^
+NLar:lampadas
+D
+E
+^
+NSalario (Proventos):Auxilio Natalidade
+D
+I
+^
+NCriancas:Baba:13 Salario
+D
+E
+^
+NCriancas:Mobilia
+D
+E
+^
+NCriancas:Baba:Salario Adiantamento
+D
+E
+^
+NPostage and Delivery (Business)
+DPostage and Delivery expense for your business
+E
+T
+R302
+^
+NCartao Credito (Income):Estorno Cartao Credito (income
+D
+I
+^
+NSalario (Proventos):Auxilio Viagem
+D
+I
+^
+NUtilidades:Condominio:taxa Extra
+D
+E
+^
+NSalario (Proventos):Auxilio Transporte
+D
+I
+^
+NTech:Audio Video:Video Games:Consoles
+D
+E
+^
+NImpostos:IOF
+D
+E
+^
+NSalario (Deducoes):Adiantamento 13
+D
+E
+^
+NSaude:Planos De Saude:Odonto:Mensalidade
+D
+E
+^
+NVendas:Cosmeticos
+D
+I
+^
+NBeleza:Servicos
+D
+E
+^
+NLar:Servicos Gerais
+D
+E
+^
+NSalario (Proventos):13 Salario
+D
+I
+^
+NAutomovel
+D
+E
+^
+NTrabalho
+D
+E
+^
+NSaude:Planos De Saude:Mensalidade
+D
+E
+^
+NLar:ut Domesticos
+D
+E
+^
+NMercado:Basicos:Outros
+D
+E
+^
+NCriancas
+D
+E
+^
+NMercado:Basicos:Carnes
+D
+E
+^
+NSalario (Proventos):Per Capita Saude Suplementar
+D
+I
+^
+NLoteria
+D
+E
+^
+NNao Sei
+D
+E
+^
+NGastos Gerais:Correios Envios Venda
+D
+E
+^
+NNao Sei (Income)
+D
+I
+^
+NSupplies (Business)
+DSupplies for your business.
+E
+T
+R301
+^
+NImpostos:INSS
+D
+E
+^
+NEducacao
+D
+E
+^
+NCriancas:Educacao:Cursos
+D
+E
+^
+NTech:Audio Video:Video Games:Acessorios
+D
+E
+^
+NLivro
+D
+E
+^
+NTax:State
+DState Tax
+E
+T
+R464
+^
+NVestuario
+D
+E
+^
+NTech:Audio Video:Video Games
+D
+E
+^
+NCriancas:Acessorios
+D
+E
+^
+NCriancas:Remedios
+D
+E
+^
+NBanco:Juros Atrasos Etc
+D
+E
+^
+NImpostos:Seguro Obrig
+D
+E
+^
+NVestuario:Bijuterias
+D
+E
+^
+NAutomovel:Lavagem
+D
+E
+^
+NTech:Eletros
+D
+E
+^
+NCriancas:Baba
+D
+E
+^
+NSaude:Remedio
+D
+E
+^
+NSalario (Deducoes):PSS Ferias
+D
+E
+^
+NUtilities:Gas
+D
+E
+^
+NTaxa Saque
+D
+E
+^
+NSalario (Proventos):Imposto De Renda Retido Na Fonte
+D
+I
+^
+NSalario (Proventos):GSISP
+D
+I
+^
+NUtilidades:Condominio
+D
+E
+^
+NTrabalho:Alimentacao
+D
+E
+^
+NJuros Emprestimo Mae
+D
+E
+^
+NAluguel
+D
+I
+^
+NVendas:Outros
+D
+I
+^
+NCriancas:Farmacia
+D
+E
+^
+NSalario (Proventos):Substituicao Interino
+D
+I
+^
+NSalario (Proventos):GDPGPE
+D
+I
+^
+NCredito Autorizado
+D
+I
+^
+NTaxes (Business):Local Tax (Business)
+DLocal Tax on your business.
+E
+T
+R316
+^
+NAchei
+D
+I
+^
+NDiversao:Parque
+D
+E
+^
+NSaude:Planos De Saude:Odonto
+D
+E
+^
+NGastos Gerais:Fotografia
+D
+E
+^
+NCriancas:Farmac
+D
+E
+^
+!Account
+NPat.BB.28835.220256.Poup
+B30028,95
+D
+TBank
+^
+!TYPE:Bank
+D12/31/15
+PBb
+M
+T78,03
+C
+LJuros Correcao Monetaria
+N
+^
+!Account
+NMar.Carteira
+B-2577,90
+D
+TCash
+^
+!TYPE:Cash
+D12/31/15
+P
+M
+T-851,83
+C
+L[Pat.Carteira]
+NTXFR
+^
+D12/31/15
+PNao Sei
+M
+T-12369,89
+C
+LNao Sei
+N
+^
+!Account
+NMar.Caixa.0863.204081.Poup
+B22038,80
+D
+TBank
+^
+!TYPE:Bank
+D12/31/15
+PCaixa Economica Federal
+M
+T135,55
+C
+LJuros Correcao Monetaria
+N
+^
+!Account
+NPat.Carteira
+B5146,80
+D
+TCash
+^
+!TYPE:Cash
+D12/31/15
+P
+M
+T150,00
+C
+L[Pat.BB.28835.220256]
+NTXFR
+^
+D12/31/15
+P
+M
+T851,83
+C
+L[Mar.Carteira]
+NTXFR
+^
+D12/31/15
+P
+M
+T-650,00
+C
+LLar:Servicos Gerais:Diaria
+N
+^
+!Account
+NPat.BB.28835.220256
+B273,68
+D
+TBank
+^
+!TYPE:Bank
+D12/31/15
+PPosto 306 Sul
+M
+T-193,63
+C
+LAutomovel:Combustivel:Gasolina
+N
+^
+D12/31/15
+PParabens Festa
+M
+T-11,20
+C
+LDiversao:Festinha
+N
+^
+D12/31/15
+PPao De Acucar
+M
+T-247,56
+C
+LUncategorized
+N
+^
+D12/31/15
+P
+M
+T-150,00
+C
+L[Pat.Carteira]
+NTXFR
+^

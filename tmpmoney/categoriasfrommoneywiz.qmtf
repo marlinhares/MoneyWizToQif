@@ -1,0 +1,515 @@
+!Option:AutoSwitch
+!Clear:AutoSwitch
+!TYPE:Cat
+NApostas
+D
+E
+^
+NAutomovel:Combustivel:Gasolina
+D
+E
+^
+NAutomovel:Estacionamento
+D
+E
+^
+NAutomovel:Maintenance
+D
+E
+^
+NAutomovel:Seguro
+D
+E
+^
+NBanco:Cartao Credito (Expense):Ajuste Cambial (Expense)
+D
+E
+^
+NBanco:Cartao Credito (Expense):Anuidade Cartao
+D
+E
+^
+NBanco:Compra Moeda Estrangeira:Compra Moeda Estr
+D
+E
+^
+NBanco:Compra Moeda Estrangeira:Taxa Venda
+D
+E
+^
+NBanco:Juros Atrasos Etc
+D
+E
+^
+NBanco:Taxas
+D
+E
+^
+NBeleza:Produtos
+D
+E
+^
+NBeleza:Servicos
+D
+E
+^
+NCaridade:Esmola
+D
+E
+^
+NCaridade:Igreja:Oferta
+D
+E
+^
+NCartao Credito (Income):Ajuste Cambial (Income)
+D
+I
+^
+NCartao Credito (Income):Estorno Cartao Credito (income)
+D
+I
+^
+NCriancas:Acessorios
+D
+E
+^
+NCriancas:Alimentacao
+D
+E
+^
+NCriancas:Brinquedos
+D
+E
+^
+NCriancas:Educacao:Creche - Mensalidade
+D
+E
+^
+NCriancas:Educacao:Escola - Mensalidade
+D
+E
+^
+NCriancas:Educacao:Material Escolar
+D
+E
+^
+NCriancas:Educacao:Refeição Lanches
+D
+E
+^
+NCriancas:Esportes
+D
+E
+^
+NCriancas:Fraldas
+D
+E
+^
+NCriancas:Livrinhos
+D
+E
+^
+NCriancas:Remedios e Farmacia
+D
+E
+^
+NCriancas:Roupa Cama
+D
+E
+^
+NCriancas:Vitaminas
+D
+E
+^
+NDevolucao Compra
+D
+I
+^
+NDevolucao Emprestimo
+D
+I
+^
+NDevolucao Impostos
+D
+I
+^
+NDiversao:Cinema
+D
+E
+^
+NDiversao:Comer Fora
+D
+E
+^
+NDiversao:Festinha
+D
+E
+^
+NDiversao:Hospedagem
+D
+E
+^
+NDiversao:Parque
+D
+E
+^
+NDiversao:Teatro/Shows/Eventos/Museu
+D
+E
+^
+NEducacao:Cursos
+D
+E
+^
+NGas de  Cozinha
+D
+E
+^
+NGastos Gerais:Chaveiro
+D
+E
+^
+NGastos Gerais:Concurso
+D
+E
+^
+NGastos Gerais:Correios
+D
+E
+^
+NGastos Gerais:Corte  Cabelo
+D
+E
+^
+NGastos Gerais:Costura
+D
+E
+^
+NGastos Gerais:Fotografia
+D
+E
+^
+NGastos Gerais:Giro Externo (expense)
+D
+E
+^
+NGastos Gerais:Loteria
+D
+E
+^
+NGastos Gerais:Papelaria
+D
+E
+^
+NGastos Gerais:Renovação de Carteira
+D
+E
+^
+NImpostos:IOF
+D
+E
+^
+NImpostos:IPTU
+D
+E
+^
+NImpostos:IPVA
+D
+E
+^
+NImpostos:Licenciamento
+D
+E
+^
+NImpostos:Seguro Obrigatorio
+D
+E
+^
+NJogos Tabuleiro
+D
+E
+^
+NJuros Correcao Monetaria
+D
+I
+^
+NLar:CamaMesaBanho
+D
+E
+^
+NLar:Coisas:Jardim
+D
+E
+^
+NLar:Coisas:Other
+D
+E
+^
+NLar:Eletros
+D
+E
+^
+NLar:Ferramentas e Suprimentos
+D
+E
+^
+NLar:Mobilia
+D
+E
+^
+NLar:Pilhas Baterias
+D
+E
+^
+NLar:Servicos Gerais:Diaria
+D
+E
+^
+NLar:Servicos Gerais:Other
+D
+E
+^
+NLar:lampadas
+D
+E
+^
+NLar:ut Domesticos
+D
+E
+^
+NLivro
+D
+E
+^
+NMercado:Basicos:Carnes
+D
+E
+^
+NMercado:Basicos:Leite
+D
+E
+^
+NMercado:Basicos:Outros
+D
+E
+^
+NMercado:Higiene
+D
+E
+^
+NMercado:Limpeza
+D
+E
+^
+NMercado:Superfluos:Other
+D
+E
+^
+NMercado:Superfluos:Refri
+D
+E
+^
+NMercado:Superfluos:Vinhos
+D
+E
+^
+NNao Sei
+D
+E
+^
+NNao Sei (Income)
+D
+I
+^
+NOdontologia
+D
+E
+^
+NOrganizar
+D
+E
+^
+NPresentes Dados
+D
+E
+^
+NReembolso Mp
+D
+I
+^
+NReforma Jr
+D
+E
+^
+NRestituicao IR
+D
+E
+^
+NRetorno Apostas
+D
+I
+^
+NSalario Liquido
+D
+I
+^
+NSaude:Consulta
+D
+E
+^
+NSaude:Fitness:Academia
+D
+E
+^
+NSaude:Fitness:Equipamentos e Acessórios
+D
+E
+^
+NSaude:Lentes De Contato
+D
+E
+^
+NSaude:Oculos
+D
+E
+^
+NSaude:Planos De Saude:Per Capita Patrocinador
+D
+E
+^
+NSaude:Planos De Saude:Plano Odontológico - Mensalidade
+D
+E
+^
+NSaude:Planos De Saude:Plano de Saúde - Mensalidade
+D
+E
+^
+NSaude:Remedio
+D
+E
+^
+NSaude:Vitaminas
+D
+E
+^
+NTech:Acessorios e Suprimentos
+D
+E
+^
+NTech:Apps e Software
+D
+E
+^
+NTech:Audio Video:Cds
+D
+E
+^
+NTech:Audio Video:Equipamentos
+D
+E
+^
+NTech:Audio Video:Video Games:Acessorios
+D
+E
+^
+NTech:Audio Video:Video Games:Consoles
+D
+E
+^
+NTech:Audio Video:Video Games:Jogos
+D
+E
+^
+NTech:Audio Video:filmes:DVD
+D
+E
+^
+NTech:Audio Video:filmes:bluray
+D
+E
+^
+NTech:Computadores
+D
+E
+^
+NTrabalho:Alimentacao
+D
+E
+^
+NTrabalho:Transporte Trabalho
+D
+E
+^
+NTransportation
+D
+E
+^
+NUtilidades:Agua
+D
+E
+^
+NUtilidades:Condomínio
+D
+E
+^
+NUtilidades:Eletricidade
+D
+E
+^
+NUtilidades:TICs:Celulares
+D
+E
+^
+NUtilidades:TICs:Fixo
+D
+E
+^
+NUtilidades:TICs:Internet
+D
+E
+^
+NUtilidades:TICs:TV
+D
+E
+^
+NVendas:Cosmeticos
+D
+I
+^
+NVendas:Outros
+D
+I
+^
+NVendas:Roupas
+D
+I
+^
+NVendas:Stuffs:Other
+D
+I
+^
+NVendas:Stuffs:Tech
+D
+I
+^
+NVestuario:Acessorios
+D
+E
+^
+NVestuario:Bijuterias
+D
+E
+^
+NVestuario:Calcados
+D
+E
+^
+NVestuario:Roupas
+D
+E
+^
+NViagens:Taxa Renovacao Passaportes
+D
+E
+^
