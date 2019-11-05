@@ -132,7 +132,8 @@ if 1:
                 v = t[10].replace(STRTHOUSANDSEP, '')
                 v = v.replace(STRDECIMALPOINT, '.')
                 v = vTotal = float (v)
-                v = v / len(cat)                
+                v = v / len(cat)
+                v = float(format(v, '.2f'))
                 j=0
                 for c in cat:
                     j=j+1
@@ -140,7 +141,7 @@ if 1:
                         v = vTotal - v*(len(cat))
                     strValue = str(v)
                     strValue = strValue.replace('.', STRDECIMALPOINT)
-                    v = format(v, '.2f')
+
                     s2 += templates.strTempl_trans_in_spl.format(strCategory_spl=c,strMemo_spl='',strValue_spl=strValue)
 
             # if transfer use this
@@ -150,7 +151,7 @@ if 1:
 
 
             s += templates.strTempl_trans_in.format(strDate=t[7], strPayee=t[5], strMemo=t[9], strNumCheck=strNumcheck, strValor=t[10], strCategorySplit=s2)
-        
+
         if(s):
             s = templates.strTempl_trans.format(strAccount=a, strTransactions=s)
             print s
