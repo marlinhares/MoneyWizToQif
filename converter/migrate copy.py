@@ -2,16 +2,35 @@ from datetime import datetime
 from time import sleep
 import csv
 
-alltrans = []
-myacc = set()
-mytags = set()
-settmp = set()
-mycat = set()
+############################################
+# PARAMETERS
+############################################
+STRFILENAME = 'moneywiz.csv'
+STRDELIMITER = '|'
+
+############################################
+# GLOBALS
+############################################
+setMyaccs = set()
+setMytags = set()
+setMycats = set()
+setMytrans = []
+lstRows=[]
 
 
-with open('moneywiz_periodo.csv') as infile:
+with open(STRFILENAME) as infile:
+    
+    csv_reader = csv.reader(infile, delimiter=STRDELIMITER)
+    
+    for row in csv_reader:        
+        lstRows.append(row)
+        
 
-    csv_reader = csv.reader(infile, delimiter='|')
+
+for row in lstRows:
+    
+    
+
 
     # vamos popular os accounts
     for row in csv_reader:
