@@ -9,6 +9,8 @@ import templates
 STRFILENAME = 'moneywiz.csv'
 STRDELIMITER = '|'
 STRFILENAME_OUT = 'toprocess.qif'
+STRTHOUSANDSEP = '.'
+STRDECIMALPOINT = ','
 
 ############################################
 # GLOBALS
@@ -32,10 +34,24 @@ with open(STRFILENAME) as infile:
                 cats = row[6].split(', ')
                 row[6] = []
                 for c in cats:
-                    c = c.replace(' > ', ':')
-                    row[6].append(c)                
-                lstRows.append(row)
-                print row
+                    if(c):
+                        c = c.replace(' > ', ':')
+                        row[6].append(c)
+
+                lstRows.append(row)                
+
+                # normalize payee as description in case payee is not set
+                row[5] = row[5] or row[4]
+
+                # normalize memo
+                row[9] = row[9].replace('\n', ' ').replace('\r', '')
+
+                # normalize value
+                v = row[10]
+                v = row[10].replace(STRTHOUSANDSEP, '')                
+                row[10] = v
+
+
         
 # lets get the accounts
 for row in lstRows:
@@ -77,7 +93,7 @@ if 1:
         
     s = templates.strTempl_Acc.format(strAccounts=s)
     print s
-    
+
     s= ''
     for c in lstMycats:
         i = 0
@@ -85,13 +101,56 @@ if 1:
             for c2 in t[6]:
                 if(c2 == c):
                     i = i + 1 if (t[10][0]!='-') else i -1
-        
+
         strType = 'I' if i > 0 else 'E'
-        
-            
+
+
         s += templates.strTempl_Cat_in.format(strCategoryName=c, strCategoryType=strType)
-        
+
     s = templates.strTempl_Cat.format(strCategories=s)
     print s
     
-    
+    for a in lstMyaccs:
+
+        s= ''
+        for t in lstMytrans:
+            
+            if(t[2] != a): continue
+            
+            strNumcheck = ''
+
+            s2 = ''
+            cat = t[6]
+            if(len(cat)==0):
+                s2 = templates.strTempl_trans_in_cat.format(strCategory='[(null)]')
+                
+            elif(len(cat)==1):
+                s2 = templates.strTempl_trans_in_cat.format(strCategory=cat[0])
+
+            else:
+                # divide split value because moneywiz does not send it individualy
+                v = t[10].replace(STRTHOUSANDSEP, '')
+                v = v.replace(STRDECIMALPOINT, '.')
+                v = vTotal = float (v)
+                v = v / len(cat)                
+                j=0
+                for c in cat:
+                    j=j+1
+                    if(j==len(cat)):
+                        v = vTotal - v*(len(cat))
+                    strValue = str(v)
+                    strValue = strValue.replace('.', STRDECIMALPOINT)
+                    v = format(v, '.2f')
+                    s2 += templates.strTempl_trans_in_spl.format(strCategory_spl=c,strMemo_spl='',strValue_spl=strValue)
+
+            # if transfer use this
+            if(t[3]):
+                s2 = templates.strTempl_trans_in_cat.format(strCategory='[' + t[3] + ']')
+                strNumcheck = 'TXFR'
+
+
+            s += templates.strTempl_trans_in.format(strDate=t[7], strPayee=t[5], strMemo=t[9], strNumCheck=strNumcheck, strValor=t[10], strCategorySplit=s2)
+        
+        if(s):
+            s = templates.strTempl_trans.format(strAccount=a, strTransactions=s)
+            print s
