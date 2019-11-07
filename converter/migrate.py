@@ -48,8 +48,20 @@ with open(STRFILENAME) as infile:
 
                 # normalize value
                 v = row[10]
-                v = row[10].replace(STRTHOUSANDSEP, '')                
+                v = row[10].replace(STRTHOUSANDSEP, '')
+                v = v.replace(',', '.')             
                 row[10] = v
+                
+                # normalize classes lets take just the first one for each transaction
+                # this can be a problem and need enhancement
+                v = row[13].split(';')
+                for e in v: 
+                    e = e.strip()
+                    if (e): 
+                        row[13] = e
+                
+                
+                    
 
 
         
@@ -84,8 +96,8 @@ print lstMyaccs
 print lstMycats
 
 
-#with open(STRFILENAME_OUT, 'w+') as outfile:
-if 1:
+
+with open(STRFILENAME_OUT, 'w+') as outfile:
     
     s= ''
     for a in lstMyaccs:
@@ -93,7 +105,8 @@ if 1:
         
     s = templates.strTempl_Acc.format(strAccounts=s)
     print s
-
+    outfile.write(s);
+    
     s= ''
     for c in lstMycats:
         i = 0
@@ -109,6 +122,7 @@ if 1:
 
     s = templates.strTempl_Cat.format(strCategories=s)
     print s
+    outfile.write(s);
     
     for a in lstMyaccs:
 
@@ -121,16 +135,17 @@ if 1:
 
             s2 = ''
             cat = t[6]
+            strClass = '/' + t[13] if(t[13]) else ''
             if(len(cat)==0):
-                s2 = templates.strTempl_trans_in_cat.format(strCategory='[(null)]')
+                s2 = templates.strTempl_trans_in_cat.format(strCategory='[(null)]', strClass='')
                 
             elif(len(cat)==1):
-                s2 = templates.strTempl_trans_in_cat.format(strCategory=cat[0])
+                s2 = templates.strTempl_trans_in_cat.format(strCategory=cat[0], strClass=strClass)
 
             else:
                 # divide split value because moneywiz does not send it individualy
-                v = t[10].replace(STRTHOUSANDSEP, '')
-                v = v.replace(STRDECIMALPOINT, '.')
+                v = t[10] #.replace(STRTHOUSANDSEP, '')
+                #v = v.replace(STRDECIMALPOINT, '.')
                 v = vTotal = float (v)
                 v = v / len(cat)
                 v = float(format(v, '.2f'))
@@ -138,15 +153,15 @@ if 1:
                 for c in cat:
                     j=j+1
                     if(j==len(cat)):
-                        v = vTotal - v*(len(cat))
+                        v = v + (vTotal - v*(len(cat)))
                     strValue = str(v)
-                    strValue = strValue.replace('.', STRDECIMALPOINT)
+                    #strValue = strValue.replace('.', STRDECIMALPOINT)
 
-                    s2 += templates.strTempl_trans_in_spl.format(strCategory_spl=c,strMemo_spl='',strValue_spl=strValue)
+                    s2 += templates.strTempl_trans_in_spl.format(strCategory_spl=c,strMemo_spl='',strValue_spl=strValue, strClass=strClass)
 
             # if transfer use this
             if(t[3]):
-                s2 = templates.strTempl_trans_in_cat.format(strCategory='[' + t[3] + ']')
+                s2 = templates.strTempl_trans_in_cat.format(strCategory='[' + t[3] + ']', strClass=strClass)
                 strNumcheck = 'TXFR'
 
 
@@ -155,3 +170,4 @@ if 1:
         if(s):
             s = templates.strTempl_trans.format(strAccount=a, strTransactions=s)
             print s
+            outfile.write(s);

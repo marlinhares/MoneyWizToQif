@@ -33,7 +33,7 @@ D
 strTempl_Cat = \
 """\
 !Clear:AutoSwitch
-!TYPE:Cat
+!Type:Cat
 {strCategories}
 """
 
@@ -43,12 +43,12 @@ strTempl_Cat = \
 
 strTempl_trans_in_cat = \
 """\
-L{strCategory}
+L{strCategory}{strClass}
 """
 
 strTempl_trans_in_spl = \
 """\
-S{strCategory_spl}
+S{strCategory_spl}{strClass}
 E{strMemo_spl}
 ${strValue_spl}
 """
@@ -72,6 +72,6 @@ B0
 D
 TCash
 ^
-!TYPE:Cash
-{strTransactions}
+!Type:Cash
+{strTransactions}\
 """
